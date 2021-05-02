@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link rel="stylesheet" href="bootstrap.css">    
+    <link rel="stylesheet" href="pricing.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="title-section">
+                    <div class="img-section">
+                        <img clas="" src="images\pattern-circles.svg" alt="">
+                    </div>
+                    <div class="info-section">
+                        <h3 class="text1">Simple, traffic-based pricing</h3>
+                        <p class="text">Sing-up for our 30-day trial. No credit card required.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="main-section">
+                    <h5 class="text">100K PAGEVIEWS</h5>
+                    <div class="slidecontainer">
+                        <input type="range" name="range" id="myRange" min="0" max="4" style="background: linear-gradient(to right, rgb(165, 243, 235) 50%, rgb(234, 238, 251) 50%);">
+                    </div>
+                    <h1 class="text1">$<span id="value">16</span>.00 <small class="text payment-type">/month</small></h1>
+                    <div class="billing-options">
+                        <p class="text billing-item">Monthly billing</p>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="billing-slider round"></span>
+                        </label>
+                        <p class="text billing-item">Yearly billing</p>
+                        <div class="d-inline d-md-none">
+                            <p class="billing-item discount">25%</p>
+                        </div>
+                        <div class="d-none d-md-inline">
+                            <p class="billing-item discount ">25% discount</p>
+                        </div>
+                    </div>
+                    <div class="start-trial-section">
+                        <div class="row start-trial">
+                            <div class="col-12 col-md-auto mr-auto">
+                                <div class="basic-info-section">
+                                    <p class="text info-section-detials"><img class="check-icon" src="images/icon-check.svg" alt="">Unlimited websites</p>
+                                    <p class="text info-section-detials"><img class="check-icon" src="images/icon-check.svg" alt="">100% data ownership</p>
+                                    <p class="text info-section-detials"><img class="check-icon" src="images/icon-check.svg" alt="">Email reports</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-auto">
+                                <button type="button" class="btn">Start my trial</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="pricing.js">
+
+    </script>
+</body>
+</html>
